@@ -5,4 +5,13 @@ metadata:
     rafay.dev/description: ""
   name: giri-ns2
   project: giri
-spec: {}
+spec:
+  limitRange:
+    container: {}
+    pod: {}
+  namespaceMeshPolicyParams: {}
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: giri-jan6-ns-lablels
+  resourceQuotas: {}
